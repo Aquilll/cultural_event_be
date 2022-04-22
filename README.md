@@ -1,19 +1,21 @@
 # README
 
-* Ruby version: 2.7.4
+### DEPENDENCIES
+* Required ruby version: 2.7.4
 
-* System dependencies
+### Setup
+* clone the repo
+* cd /cultural_event_be
+* bundle install
+* rails db:migrate
+* rails s
 
-* Configuration
+### API ENDPOINTS
+* GET /events
+  lists all events
 
-* Database creation
+* POST /create_gorki_events
+   - creates events from gorki
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* POST /create_co_berlin_events
+   - creates events from co_berlin
